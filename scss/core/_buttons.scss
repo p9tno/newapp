@@ -1,0 +1,102 @@
+// Style for button and pseudo button for input and link
+
+.btn {
+	display: inline-block;
+	max-width: 100%;
+
+	font-family: $main_font_family;
+	font-weight: 900;
+	font-size: 12px;
+	background-color: $color_blue;
+	color: $color_white;
+
+	padding: 16px 29.5px;
+	border-radius: 30px;
+
+	outline: none;
+	border: none;
+
+	text-align: center;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-decoration: none;
+
+	&:hover {
+		// background-color: #fff;
+		// color: #000;
+		// text-decoration: none;
+	}
+
+	&:active {
+		// background-color: darken(#ddd, 10%);
+		// color: #000;
+	}
+
+	&:focus {
+		box-shadow: none;
+	}
+
+	&-smallRadius {
+		border-radius: 5px;
+	}
+	// size
+	&-large {
+		font-size: 14px;
+		padding: 19.5px 34px;
+	}
+
+	&-small {
+		padding: 11px 19.5px;
+	}
+
+	&-extraSmall {
+		font-size: 10px;
+		padding: 7.5px 15px;
+	}
+	// end size
+
+	//color
+	&-light {
+		background-color: $color_white;
+		color: #4D5E80;
+		border: 2px solid #F2F3F5;
+		box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
+	}
+
+	&-dark {
+		background-color: #202B40;
+		color: #7D8FB3;
+		box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
+	}
+
+	&-green {
+		background-color: $color_green;
+	}
+
+	&-orange {
+		background-color: $color_orange;
+
+	}
+
+	&-purple {
+		background-color: $color_purple;
+
+	}
+
+	&-blue {
+		background-color: $color_tealBlue;
+
+	}
+
+	&-tiffany {
+		background-color: $color_tiffany;
+
+	}
+
+	&-greyBlue {
+		background-color: #0D111A;
+	}
+
+	// end color
+
+}

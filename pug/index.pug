@@ -1,0 +1,40 @@
+extends layout/layout.pug
+
+block content
+    // begin buttons
+    section#buttons.buttons.section
+        .container_center
+            h2.section__title Buttons
+            .buttons__content
+                span Default, Radius 5
+                p 
+                    button.btn(type="button") Button
+                    button.btn.btn-smallRadius(type="button") Button
+
+                span Large, Default, Small, Extra Small
+                p
+                    button.btn.btn-large(type="button") Button
+                    button.btn(type="button") Button
+                    button.btn.btn-small(type="button") Button
+                    button.btn.btn-extraSmall(type="button") Button
+
+                span Large, Default, Small, Extra Small
+                p
+                    button.btn.btn-large.btn-smallRadius(type="button") Button
+                    button.btn.btn-smallRadius(type="button") Button
+                    button.btn.btn-small.btn-smallRadius(type="button") Button
+                    button.btn.btn-extraSmall.btn-smallRadius(type="button") Button
+
+                span Light Button,  Dark Button,  Combinations Button
+                p
+                    button.btn.btn-light(type="button") Button
+                    button.btn.btn-dark.btn-smallRadius(type="button") Button
+                    button.btn.btn-green(type="button") Button
+                    button.btn.btn-orange.btn-smallRadius(type="button") Button
+                    button.btn.btn-purple(type="button") Button
+                    button.btn.btn-blue.btn-smallRadius(type="button") Button
+                    button.btn.btn-tiffany(type="button") Button
+                    button.btn.btn-greyBlue.btn-smallRadius(type="button") Button
+
+
+    // end buttons
