@@ -382,7 +382,7 @@ html {
 
 body {
   font-family: "Roboto";
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   margin: 0;
   min-height: 100%;
@@ -540,11 +540,11 @@ img {
   max-width: 100%;
   font-family: "Roboto";
   font-weight: 900;
-  font-size: 12px;
+  font-size: 0.75em;
   background-color: #3361FF;
   color: #FFFFFF;
-  padding: 16px 29.5px;
-  border-radius: 30px;
+  padding: 1.334em 2.456em;
+  border-radius: 0.313em;
   outline: none;
   border: none;
   text-align: center;
@@ -552,22 +552,28 @@ img {
   transition: all 0.3s;
   text-decoration: none;
 }
+.btn:hover {
+  background-color: #194DFF;
+}
+.btn:active {
+  background-color: #0039FF;
+}
 .btn:focus {
   box-shadow: none;
 }
-.btn-smallRadius {
-  border-radius: 5px;
+.btn-radius {
+  border-radius: 1.875em;
 }
-.btn-large {
-  font-size: 14px;
-  padding: 19.5px 34px;
+.btn-lg {
+  font-size: 0.875em;
+  padding: 1.393em 2.426em;
 }
-.btn-small {
-  padding: 11px 19.5px;
+.btn-sm {
+  padding: 0.917em 1.623em;
 }
-.btn-extraSmall {
-  font-size: 10px;
-  padding: 7.5px 15px;
+.btn-xsm {
+  font-size: 0.625em;
+  padding: 0.75em 1.5em;
 }
 .btn-light {
   background-color: #FFFFFF;
@@ -575,26 +581,75 @@ img {
   border: 2px solid #F2F3F5;
   box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
 }
+.btn-light:hover {
+  background-color: #f2f2f2;
+}
 .btn-dark {
   background-color: #202B40;
   color: #7D8FB3;
   box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
+  text-decoration: none;
+}
+.btn-dark:hover {
+  background-color: #293651 !important;
+}
+.btn-dark:active {
+  outline: none;
+  box-shadow: none !important;
+  -webkit-appearance: none;
+  background-color: #314262 !important;
 }
 .btn-green {
   background-color: #29CC39;
 }
+.btn-green:hover {
+  background-color: #13BF24;
+}
+.btn-green:active {
+  background-color: #00B211;
+}
 .btn-orange {
   background-color: #FF6633;
+}
+.btn-orange:hover {
+  background-color: #E64B17;
+}
+.btn-orange:active {
+  background-color: #CC4314;
 }
 .btn-purple {
   background-color: #8833FF;
 }
+.btn-purple:hover {
+  background-color: #7919FF;
+}
+.btn-purple:active {
+  background-color: #6A00FF;
+}
 .btn-blue {
   background-color: #33BFFF;
+}
+.btn-blue:hover {
+  background-color: #17A5E6;
+}
+.btn-blue:active {
+  background-color: #008CCC;
 }
 .btn-tiffany {
   background-color: #2EE6CA;
 }
+.btn-tiffany:hover {
+  background-color: #14CCB0;
+}
+.btn-tiffany:active {
+  background-color: #00B397;
+}
 .btn-greyBlue {
   background-color: #0D111A;
+}
+.btn-greyBlue:hover {
+  background-color: #1e273c;
+}
+.btn-greyBlue:active {
+  background-color: #2f3d5e;
 }

@@ -6,12 +6,12 @@
 
 	font-family: $main_font_family;
 	font-weight: 900;
-	font-size: 12px;
+	font-size: 0.75em;
 	background-color: $color_blue;
 	color: $color_white;
 
-	padding: 16px 29.5px;
-	border-radius: 30px;
+	padding: 1.334em 2.456em;
+	border-radius: 0.313em;
 
 	outline: none;
 	border: none;
@@ -22,36 +22,33 @@
 	text-decoration: none;
 
 	&:hover {
-		// background-color: #fff;
-		// color: #000;
-		// text-decoration: none;
+		background-color: $color_blue_dark;
 	}
 
 	&:active {
-		// background-color: darken(#ddd, 10%);
-		// color: #000;
+		background-color: $color_blue_darkest;
 	}
 
 	&:focus {
 		box-shadow: none;
 	}
 
-	&-smallRadius {
-		border-radius: 5px;
+	&-radius {
+		border-radius: 1.875em;
 	}
 	// size
-	&-large {
-		font-size: 14px;
-		padding: 19.5px 34px;
+	&-lg {
+		font-size: 0.875em;
+		padding: 1.393em 2.426em;
 	}
 
-	&-small {
-		padding: 11px 19.5px;
+	&-sm {
+		padding: 0.917em 1.623em;
 	}
 
-	&-extraSmall {
-		font-size: 10px;
-		padding: 7.5px 15px;
+	&-xsm {
+		font-size: 0.625em;
+		padding: 0.75em 1.5em;
 	}
 	// end size
 
@@ -61,40 +58,112 @@
 		color: #4D5E80;
 		border: 2px solid #F2F3F5;
 		box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
+
+		&:hover {
+			background-color: darken($color_white, 5%);
+		}
+
+		&:active {
+			// background-color: darken($color_white, 10%);
+
+		}
+
 	}
 
 	&-dark {
 		background-color: #202B40;
 		color: #7D8FB3;
 		box-shadow: 0 2px 5px rgba(38, 51, 77, 0.03);
+		text-decoration: none;
+
+		&:hover {
+			background-color: lighten(#202B40, 5%)!important;
+		}
+
+		&:active {
+			outline: none;
+			box-shadow: none !important;
+			-webkit-appearance: none;
+			background-color: lighten(#202B40, 10%)!important;
+
+		}
 	}
 
 	&-green {
 		background-color: $color_green;
+
+		&:hover {
+			background-color: $color_green_dark;
+		}
+
+		&:active {
+			background-color: $color_green_darkest;
+		}
 	}
 
 	&-orange {
 		background-color: $color_orange;
+
+		&:hover {
+			background-color: $color_orange_dark;
+		}
+
+		&:active {
+			background-color: $color_orange_darkest;
+		}
 
 	}
 
 	&-purple {
 		background-color: $color_purple;
 
+		&:hover {
+			background-color: $color_purple_dark;
+		}
+
+		&:active {
+			background-color: $color_purple_darkest;
+		}
+
 	}
 
 	&-blue {
 		background-color: $color_tealBlue;
+
+		&:hover {
+			background-color: $color_tealBlue_dark;
+		}
+
+		&:active {
+			background-color: $color_tealBlue_darkest;
+		}
 
 	}
 
 	&-tiffany {
 		background-color: $color_tiffany;
 
+		&:hover {
+			background-color: $color_tiffany_dark;
+		}
+
+		&:active {
+			background-color: $color_tiffany_darkest;
+		}
+
 	}
 
 	&-greyBlue {
 		background-color: #0D111A;
+
+		&:hover {
+			background-color: lighten(#0D111A, 10%);
+		}
+
+		&:active {
+			background-color: lighten(#0D111A, 20%);
+
+		}
 	}
 
 	// end color
