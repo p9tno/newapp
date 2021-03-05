@@ -1,5 +1,6 @@
 /* Global variables */
 /* ======================================================================== */
+@import "../fonts/icon/style.css";
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -555,6 +556,9 @@ img {
 .btn:hover {
   background-color: #194DFF;
 }
+.btn:hover i {
+  opacity: 1;
+}
 .btn:active {
   background-color: #0039FF;
 }
@@ -652,4 +656,59 @@ img {
 }
 .btn-greyBlue:active {
   background-color: #2f3d5e;
+}
+.btn-group .btn-light {
+  border: 2px solid #F5F6F7;
+}
+.btn-group .btn {
+  display: flex;
+  align-items: center;
+  padding: 1.25em;
+}
+.btn-group .btn:first-child {
+  padding-left: 2.084em;
+}
+.btn-group .btn:last-child {
+  padding-right: 2.084em;
+}
+.btn-group i {
+  font-size: 1.666em;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+.btn-group-sm .btn {
+  padding: 0.78em;
+}
+.btn-group-sm .btn:first-child {
+  padding-left: 1.476em;
+}
+.btn-group-sm .btn:last-child {
+  padding-right: 1.476em;
+}
+.btn-group-sm i {
+  font-size: 1.333em;
+}
+.btn-group-lg .btn {
+  padding: 1em;
+}
+.btn-group-lg .btn:first-child {
+  padding-left: 1.5em;
+}
+.btn-group-lg .btn:last-child {
+  padding-right: 1.5em;
+}
+.btn-group-lg i {
+  font-size: 1em;
+}
+.btn-group-xsm .btn {
+  padding: 0.584em;
+}
+.btn-group-xsm .btn:first-child {
+  padding-left: 0.993em;
+}
+.btn-group-xsm .btn:last-child {
+  padding-right: 0.993em;
+}
+.btn-group-xsm i {
+  font-size: 1.34em;
 }
